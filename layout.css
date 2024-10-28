@@ -115,7 +115,7 @@ a{
 .item{
     border-radius: 5px;
     width: 300px;
-    height: 450px;
+    height: 410px;
     /* background-image: linear-gradient(to top,#d5cf19,#da810e); */
    background-color: rgb(249, 246, 246);
     overflow: hidden;
@@ -124,6 +124,14 @@ a{
     scroll-snap-align:start;
     
 }
+.title .text-ellipsis {
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+  }
+
 .bot_item{
     /* border-radius: 15px; */
     width: 300px;
