@@ -261,8 +261,16 @@ a{
 
 @media screen and ( max-width: 768px) {
     .item{
+        border-radius: 5px;
         width: 20%;
-
+        height: 410px;
+        /* background-image: linear-gradient(to top,#d5cf19,#da810e); */
+       background-color: rgb(249, 246, 246);
+        overflow: hidden;
+        transition: 0.5s;
+        margin: 10px;
+        scroll-snap-align:start;
+        
     }
     .direction{
         display: none;
